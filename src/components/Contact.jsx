@@ -14,7 +14,7 @@ const Contact = () => {
     setLoading(true);
     try {
       const { data } = await axios.post(
-  "https://gym-backend-wwbd.onrender.com/send",
+  "https://gym-backend-wwbd.onrender.com/send/mail",
   {
     name,
     email,
