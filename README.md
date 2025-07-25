@@ -22,6 +22,6 @@ Follow the steps below to run the frontend locally:
 1. **Clone the repository**
 
 ```bash
-git clone https://github.com/Pinki-Kumari-s/gym-frontend.git
+git clone https://github.com/Pinki-Kumari-s/Gym-frontend.git
 cd gym-frontend
 
