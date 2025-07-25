@@ -14,17 +14,18 @@ const Contact = () => {
     setLoading(true);
     try {
       const { data } = await axios.post(
-        "https://gym-backend-wwbd.onrender.com/send", data,
-        {
-          name,
-          email,
-          message,
-        },
-        {
-          withCredentials: true,
-          headers: { "Content-Type": "application/json" },
-        }
-      );
+  "https://gym-backend-wwbd.onrender.com/send",
+  {
+    name,
+    email,
+    message,
+  },
+  {
+    withCredentials: true,
+    headers: { "Content-Type": "application/json" },
+  }
+);
+
       setName("");
       setEmail("");
       setMessage("");
